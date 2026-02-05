@@ -55,8 +55,7 @@ This project demonstrates system-level programming concepts, terminal control, i
 
 ## 📸 Demo
 
-### Gameplay Output
-(Add screenshot or GIF here)
+![Snake Gameplay](screenshots/gameplay.jpg)
 
 
 ---

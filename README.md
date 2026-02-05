@@ -105,6 +105,7 @@ snake-game-c-console/
 - Multiplayer mode
 - Sound effects integration
 - Mobile or web adaptation
+- Integration of AI-based difficulty prediction using player performance analytics.
 
 ---
 

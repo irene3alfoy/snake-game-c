@@ -1,34 +1,137 @@
-# 🐍 Snake Game in C
+# 🐍 Classic Snake Game (Smooth Console Version) – C Programming
 
-A classic console-based Snake Game developed using C programming to understand
-game logic, movement algorithms, and collision detection.
+A cross-platform console-based Snake Game developed in C with smooth movement, level-based difficulty scaling, and real-time keyboard input handling.
 
-## 🎯 Project Objective
-- Design a playable Snake game
-- Implement real-time movement using keyboard input
-- Handle collision detection and score updates
+This project demonstrates system-level programming concepts, terminal control, input handling, and game loop logic using C.
 
-## 🧠 Key Concepts Used
-- Loops and conditionals
-- Arrays / structures
-- Coordinate-based movement
-- Collision detection logic
-- Real-time input handling
+---
 
-## 🛠 Technologies
-- Language: C
-- Platform: Console application
+## 🎮 Features
 
-## 🎮 Game Rules
-- Snake grows when it eats food
-- Game ends if snake hits the wall or itself
-- Score updates dynamically
+✅ Smooth snake movement  
+✅ Real-time keyboard input (non-blocking controls)  
+✅ Level-based speed increase  
+✅ Pause and Resume functionality  
+✅ Cross-platform compatibility (Windows & Linux)  
+✅ Collision detection (walls & self)  
+✅ Score tracking system  
 
-## 🚀 Learning Outcome
-This project strengthened my logical thinking, problem-solving skills,
-and understanding of real-time application flow in C.
+---
 
-## 🔮 Future Enhancements
-- Difficulty levels
-- Obstacles
-- Sound effects
+## 🕹️ Controls
+
+| Key | Action |
+|------|------------|
+| W / ↑ | Move Up |
+| A / ← | Move Left |
+| S / ↓ | Move Down |
+| D / → | Move Right |
+| P | Pause Game |
+| Q | Quit Game |
+
+---
+
+## ⚙️ Technologies Used
+
+- C Programming
+- Standard Libraries (stdio.h, stdlib.h, time.h)
+- Platform-Specific Libraries:
+  - Windows → conio.h, windows.h
+  - Linux → termios.h, unistd.h, fcntl.h
+
+---
+
+## 🧠 Concepts Demonstrated
+
+- Game loop implementation
+- Non-blocking keyboard input
+- Terminal raw mode control
+- Memory handling and structures
+- Cross-platform preprocessor directives
+- Collision detection algorithms
+- Dynamic difficulty scaling
+
+---
+
+## 📸 Demo
+
+### Gameplay Output
+(Add screenshot or GIF here)
+
+
+---
+
+## 🚀 How to Run
+
+### 🔹 Windows
+
+1. Compile using GCC or MinGW:
+snake.exe
+
+---
+
+### 🔹 Linux / Mac (Terminal)
+
+1. Compile:
+
+
+
+gcc snake.c -o snake
+
+
+2. Run:
+
+
+
+./snake
+
+
+---
+
+## 📂 Project Structure
+
+
+
+snake-game-c-console
+│
+├── snake.c
+├── screenshots
+│ └── gameplay.png
+├── README.md
+└── .gitignore
+
+## 🔮 Future Improvements
+
+- GUI version using SDL or OpenGL
+- High score saving system
+- Multiplayer mode
+- Sound effects integration
+- Mobile or web adaptation
+
+---
+
+## 📚 Learning Outcome
+
+This project strengthened understanding of:
+
+- Real-time system interaction
+- Cross-platform compatibility design
+- Game logic structuring
+- Debugging low-level input handling
+
+---
+
+## 👩‍💻 Author
+
+**Pratheeksha Shalbin**  
+Food Processing Undergraduate | Exploring Software & AI Applications  
+
+🔗 LinkedIn: *https://www.linkedin.com/in/pratheeksha-shalbin/*
+
+---
+
+## 📜 License
+
+This project is open-source and available under the MIT License.
+
+

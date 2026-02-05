@@ -1,8 +1,17 @@
+![C](https://img.shields.io/badge/Language-C-blue)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-lightgrey)
+
+
 # 🐍 Classic Snake Game (Smooth Console Version) – C Programming
 
 A cross-platform console-based Snake Game developed in C with smooth movement, level-based difficulty scaling, and real-time keyboard input handling.
 
 This project demonstrates system-level programming concepts, terminal control, input handling, and game loop logic using C.
+
+## Game Objective
+
+Control the snake to eat food and grow longer while avoiding collisions with walls or itself. The game speed increases with levels, increasing difficulty.
 
 ---
 
@@ -55,47 +64,37 @@ This project demonstrates system-level programming concepts, terminal control, i
 
 ## 📸 Demo
 
+Below is a sample gameplay screen:
+
 ![Snake Gameplay](screenshots/gameplay.jpg)
 
 
 ---
+## Requirements
+
+• GCC Compiler
+• Terminal / Command Prompt
+• Windows / Linux / MacOS
+
 
 ## 🚀 How to Run
 
-### 🔹 Windows
+### Windows
 
-1. Compile using GCC or MinGW:
-snake.exe
+1. Install MinGW or any GCC compiler.
+2. Open terminal in project folder.
+3. Compile:
+   gcc snake.c -o snake.exe
+4. Run:
+   snake.exe
+----
+## Project Structure
 
----
-
-### 🔹 Linux / Mac (Terminal)
-
-1. Compile:
-
-
-
-gcc snake.c -o snake
-
-
-2. Run:
-
-
-
-./snake
-
-
----
-
-## 📂 Project Structure
-
-
-
-snake-game-c-console
+snake-game-c-console/
 │
 ├── snake.c
-├── screenshots
-│ └── gameplay.png
+├── screenshots/
+│   └── gameplay.png
 ├── README.md
 └── .gitignore
 
@@ -123,7 +122,8 @@ This project strengthened understanding of:
 ## 👩‍💻 Author
 
 **Pratheeksha Shalbin**  
-Food Processing Undergraduate | Exploring Software & AI Applications  
+Food Technology Undergraduate | Exploring AI, Software Development & Digital Food Systems
+
 
 🔗 LinkedIn: *https://www.linkedin.com/in/pratheeksha-shalbin/*
 
